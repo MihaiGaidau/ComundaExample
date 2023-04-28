@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "label": "Name Surname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qricvz",
+        "columns": null
+      },
+      "id": "Field_0x552fk",
+      "key": "name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Birth Date (DD-MM-YYYY)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0b1ttou",
+        "columns": null
+      },
+      "id": "Field_130mh42",
+      "key": "birthDate",
+      "validate": {
+        "pattern": "^(0[1-9]|[1-2][0-9]|3[0-1])-(0[1-9]|1[0-2])-\\d{4}$",
+        "required": true
+      }
+    },
+    {
+      "label": "Job",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14e3tkw",
+        "columns": null
+      },
+      "id": "Field_1jkg4ma",
+      "key": "job",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Money Required",
+      "type": "number",
+      "layout": {
+        "row": "Row_12ewa8e",
+        "columns": null
+      },
+      "id": "Field_097502d",
+      "key": "money",
+      "validate": {
+        "required": true,
+        "min": 1
+      }
+    },
+    {
+      "label": "Standart Terms",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_10qpf21",
+        "columns": null
+      },
+      "id": "Field_1hlksnu",
+      "key": "standartTerms",
+      "defaultValue": true
+    }
+  ],
+  "type": "default",
+  "id": "Form_18okch5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "schemaVersion": 8
+}

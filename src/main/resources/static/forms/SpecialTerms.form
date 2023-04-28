@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "label": "Name Surname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qricvz",
+        "columns": null
+      },
+      "id": "Field_0x552fk",
+      "key": "name",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Birth Date (DD-MM-YYYY)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1l3xgl2",
+        "columns": null
+      },
+      "id": "Field_0dz239b",
+      "key": "birthDate",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Job",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14e3tkw",
+        "columns": null
+      },
+      "id": "Field_1jkg4ma",
+      "key": "job",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Money Required",
+      "type": "number",
+      "layout": {
+        "row": "Row_12ewa8e",
+        "columns": null
+      },
+      "id": "Field_097502d",
+      "key": "money",
+      "validate": {
+        "required": true,
+        "min": 1
+      },
+      "disabled": true
+    },
+    {
+      "label": "Is director's son",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1aodtys",
+        "columns": null
+      },
+      "id": "Field_19m6r5r",
+      "key": "son"
+    },
+    {
+      "label": "Extended contract (+5%)",
+      "type": "number",
+      "layout": {
+        "row": "Row_10jxh5h",
+        "columns": null
+      },
+      "id": "Field_05rdys6",
+      "key": "years",
+      "description": "Nr of years to extend contract",
+      "defaultValue": 1,
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 50
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_18okch5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "schemaVersion": 8
+}

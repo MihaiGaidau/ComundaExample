@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "label": "Name Surname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qricvz",
+        "columns": null
+      },
+      "id": "Field_0x552fk",
+      "key": "name",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Birth Date (DD-MM-YYYY)",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10bf3ff",
+        "columns": null
+      },
+      "id": "Field_0e5bw3e",
+      "key": "birthDate",
+      "disabled": true
+    },
+    {
+      "label": "Job",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14e3tkw",
+        "columns": null
+      },
+      "id": "Field_1jkg4ma",
+      "key": "job",
+      "validate": {
+        "required": true
+      },
+      "disabled": true
+    },
+    {
+      "label": "Money Required",
+      "type": "number",
+      "layout": {
+        "row": "Row_12ewa8e",
+        "columns": null
+      },
+      "id": "Field_097502d",
+      "key": "money",
+      "validate": {
+        "required": true,
+        "min": 1
+      },
+      "disabled": true
+    },
+    {
+      "label": "Has No Risks",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1e7fprd",
+        "columns": null
+      },
+      "id": "Field_0260lon",
+      "key": "risk"
+    }
+  ],
+  "type": "default",
+  "id": "Form_18okch5",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "schemaVersion": 8
+}
